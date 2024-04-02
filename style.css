@@ -1,0 +1,132 @@
+*,html{
+    margin: 0;
+    padding: 0;
+}
+
+/* HOME */
+
+.navbar {
+    background-color: #333; /* Warna latar belakang navbar */
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    float: left; 
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #ddd; 
+    color: black;
+}
+
+
+.home_text {
+    text-align: left; 
+    margin-top: 250px; 
+    margin-left: 25px;
+}
+
+/* GALLERY */
+
+.img {
+    text-align: center; /* Mengatur agar gambar-gambar berada di tengah */
+    margin-top: 20px; /* Jarak atas dari galeri ke bagian atas halaman */
+}
+
+.img img {
+    width: 330px;
+    height: 220px; 
+    margin: 10px; /* Jarak antara gambar */
+    transition: 0.5s;
+}
+
+.img img:hover {
+    width: 360px;
+    height: 240px; 
+}
+
+.gallery_text {
+    text-align: center; /* Mengatur agar teks berada di tengah */
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+/* BLOG */
+
+.teks1, .teks2, .teks3 {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.teks1 h1, .teks2 h1, .teks3 h1 {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.teks1 p, .teks2 p, .teks3 p {
+    color: #666;
+}
+
+/*CONTACT*/
+
+input[type=text] {
+    margin-left: 3px;
+    margin-bottom: 30px;
+    width: 20%;
+    padding: 12px 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+input[type=text]:focus {
+    background-color:rgb(149, 166, 172);
+}
+
+.name {
+    margin-top: 50px;
+    margin-left: 3px;
+}
+
+.message {
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin-left: 3px;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  padding: 15px 40px;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
