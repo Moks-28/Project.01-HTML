@@ -3,11 +3,23 @@
     padding: 0;
 }
 
-/* HOME */
+/* BACKGROUND*/
+
+body {
+    background-image: url(foto/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: multiply;
+}
+
+/* HOME + NAVBAR*/
 
 .navbar {
-    background-color: #333; /* Warna latar belakang navbar */
+    background-color: #333;
+    opacity: .5; 
     overflow: hidden;
+    margin-top: 10px;
 }
 
 .navbar ul {
@@ -23,9 +35,11 @@
 .navbar ul li a {
     display: block;
     color: white;
+    text-transform: uppercase;
     text-align: center;
-    padding: 10px 16px;
     text-decoration: none;
+    padding: 15px 25px 15px 40px;
+    transition: all 0.3s;
 }
 
 .navbar ul li a:hover {
@@ -35,22 +49,37 @@
 
 
 .home_text {
+    text-transform: uppercase;
     text-align: left; 
     margin-top: 250px; 
     margin-left: 25px;
 }
 
+.home_text h4 {
+    font-size: 13px;
+}
+
+.home_text h1 {
+    font-size: 40px;
+}
+
+.home_text h2 {
+    font-size: 30px;
+    margin-left: 1px;
+    margin-bottom: -5px;
+}
+
 /* GALLERY */
 
 .img {
-    text-align: center; /* Mengatur agar gambar-gambar berada di tengah */
-    margin-top: 20px; /* Jarak atas dari galeri ke bagian atas halaman */
+    text-align: center; 
+    margin-top: 20px; 
 }
 
 .img img {
     width: 330px;
     height: 220px; 
-    margin: 10px; /* Jarak antara gambar */
+    margin: 10px; 
     transition: 0.5s;
 }
 
@@ -60,7 +89,7 @@
 }
 
 .gallery_text {
-    text-align: center; /* Mengatur agar teks berada di tengah */
+    text-align: center; 
     margin-top: 40px;
     margin-bottom: 80px;
 }
@@ -82,19 +111,18 @@
     color: #666;
 }
 
+
 /*CONTACT*/
 
-input[type=text] {
+.button {
+    font-size: 15px;
     margin-left: 3px;
     margin-bottom: 30px;
-    width: 20%;
-    padding: 12px 20px;
+    margin-top: 10px;
+    width: 150x;
+    padding: 10px 20px;
     border: none;
     border-bottom: 2px solid #ccc;
-}
-
-input[type=text]:focus {
-    background-color:rgb(149, 166, 172);
 }
 
 .name {
