@@ -16,12 +16,19 @@
         </ul>
     </div>
 
-    <div class="form">
+    <form action="send_email.php" method="post">
         <p class="name">Name</p>
-        <input type="text">
+        <input type="text" name="name">
+        <p class="email">Email</p>
+        <input type="email" name="email">
         <p class="message">Message</p>
-        <textarea></textarea>
-        <button class="button">Kirim</button>
-    </div>
-</body>
+        <textarea name="message"></textarea>
+        <button type="submit" class="button">Kirim</button>
+    </form>
+            
+
+        
+    </body>
 </html>
+    
+

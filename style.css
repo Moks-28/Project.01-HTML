@@ -10,7 +10,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    mix-blend-mode: multiply;
 }
 
 /* HOME + NAVBAR*/
@@ -136,7 +135,7 @@ body {
 }
 
   textarea {
-    width: 100%;
+    width: 400px;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
